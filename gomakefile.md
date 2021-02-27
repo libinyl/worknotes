@@ -1,6 +1,6 @@
 .PHONY: update gen doc
 
-BINARY=teg-devops-openapi
+BINARY=xx
 VERSION=$(shell git describe --abbrev=0 --tags)
 BUILD=$(shell git rev-parse HEAD 2> /dev/null || echo "undefined")
 BUILDTIME=$(shell date +"%Y-%m-%d_%H:%M:%S")
