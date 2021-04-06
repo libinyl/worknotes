@@ -1,1 +1,1 @@
-昨天: date -d '1 day ago' +'%Y%m%d'
+昨天: date -d '1 day ago" +'%Y%m%d'
